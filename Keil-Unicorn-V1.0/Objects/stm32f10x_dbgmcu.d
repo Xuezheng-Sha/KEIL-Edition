@@ -2,7 +2,7 @@
 .\objects\stm32f10x_dbgmcu.o: .\StdPeriph_Driver\inc\stm32f10x_dbgmcu.h
 .\objects\stm32f10x_dbgmcu.o: .\CMSIS\stm32f10x.h
 .\objects\stm32f10x_dbgmcu.o: .\CMSIS\core_cm3.h
-.\objects\stm32f10x_dbgmcu.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f10x_dbgmcu.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stm32f10x_dbgmcu.o: .\CMSIS\core_cmInstr.h
 .\objects\stm32f10x_dbgmcu.o: .\CMSIS\core_cmFunc.h
 .\objects\stm32f10x_dbgmcu.o: .\CMSIS\system_stm32f10x.h

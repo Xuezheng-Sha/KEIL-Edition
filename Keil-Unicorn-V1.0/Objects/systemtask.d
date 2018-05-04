@@ -1,13 +1,13 @@
 .\objects\systemtask.o: my code\system\System task\Systemtask.c
 .\objects\systemtask.o: my code\system\System task\Systemtask.h
 .\objects\systemtask.o: .\User\includes.h
-.\objects\systemtask.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\systemtask.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\systemtask.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\systemtask.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\systemtask.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\systemtask.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\systemtask.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\systemtask.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\systemtask.o: .\CMSIS\stm32f10x.h
 .\objects\systemtask.o: .\CMSIS\core_cm3.h
-.\objects\systemtask.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\systemtask.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\systemtask.o: .\CMSIS\core_cmInstr.h
 .\objects\systemtask.o: .\CMSIS\core_cmFunc.h
 .\objects\systemtask.o: .\CMSIS\system_stm32f10x.h
@@ -35,8 +35,8 @@
 .\objects\systemtask.o: .\my code\Beep\beep.h
 .\objects\systemtask.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
 .\objects\systemtask.o: .\my code\Agreement\FreeModbus\port\port.h
-.\objects\systemtask.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
-.\objects\systemtask.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\systemtask.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\systemtask.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 .\objects\systemtask.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
 .\objects\systemtask.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h
 .\objects\systemtask.o: .\my code\Agreement\FreeModbus\modbus\include\mbutils.h
@@ -50,7 +50,7 @@
 .\objects\systemtask.o: .\my code\ESP8266\esp8266.h
 .\objects\systemtask.o: .\my code\Usart\usart.h
 .\objects\systemtask.o: .\my code\system\FreeRTOS-8\include\FreeRTOS.h
-.\objects\systemtask.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\systemtask.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\systemtask.o: .\User\FreeRTOSConfig.h
 .\objects\systemtask.o: .\my code\system\FreeRTOS-8\include\projdefs.h
 .\objects\systemtask.o: .\my code\system\FreeRTOS-8\include\portable.h

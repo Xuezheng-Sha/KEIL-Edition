@@ -1,12 +1,12 @@
 .\objects\main.o: User\main.c
 .\objects\main.o: User\includes.h
-.\objects\main.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\main.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\main.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\main.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\main.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\main.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\main.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\main.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\main.o: .\CMSIS\stm32f10x.h
 .\objects\main.o: .\CMSIS\core_cm3.h
-.\objects\main.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\main.o: .\CMSIS\core_cmInstr.h
 .\objects\main.o: .\CMSIS\core_cmFunc.h
 .\objects\main.o: .\CMSIS\system_stm32f10x.h
@@ -34,8 +34,8 @@
 .\objects\main.o: .\my code\Beep\beep.h
 .\objects\main.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
 .\objects\main.o: .\my code\Agreement\FreeModbus\port\port.h
-.\objects\main.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
-.\objects\main.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\main.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\main.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 .\objects\main.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
 .\objects\main.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h
 .\objects\main.o: .\my code\Agreement\FreeModbus\modbus\include\mbutils.h
@@ -50,7 +50,7 @@
 .\objects\main.o: .\my code\ESP8266\esp8266.h
 .\objects\main.o: .\my code\Usart\usart.h
 .\objects\main.o: .\my code\system\FreeRTOS-8\include\FreeRTOS.h
-.\objects\main.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\main.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\main.o: .\User\FreeRTOSConfig.h
 .\objects\main.o: .\my code\system\FreeRTOS-8\include\projdefs.h
 .\objects\main.o: .\my code\system\FreeRTOS-8\include\portable.h

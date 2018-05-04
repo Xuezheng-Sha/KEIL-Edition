@@ -1,7 +1,7 @@
 .\objects\beep.o: my code\Beep\Beep.C
 .\objects\beep.o: .\CMSIS\stm32f10x.h
 .\objects\beep.o: .\CMSIS\core_cm3.h
-.\objects\beep.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\beep.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\beep.o: .\CMSIS\core_cmInstr.h
 .\objects\beep.o: .\CMSIS\core_cmFunc.h
 .\objects\beep.o: .\CMSIS\system_stm32f10x.h
@@ -20,10 +20,10 @@
 .\objects\beep.o: .\StdPeriph_Driver\inc\misc.h
 .\objects\beep.o: my code\Beep\Beep.h
 .\objects\beep.o: .\User\includes.h
-.\objects\beep.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\beep.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\beep.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\beep.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\beep.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\beep.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\beep.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\beep.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\beep.o: .\StdPeriph_Driver\inc\stm32f10x_adc.h
 .\objects\beep.o: .\my code\12864\OLED.h
 .\objects\beep.o: .\my code\key\key.h
@@ -35,8 +35,8 @@
 .\objects\beep.o: .\my code\Beep\beep.h
 .\objects\beep.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
 .\objects\beep.o: .\my code\Agreement\FreeModbus\port\port.h
-.\objects\beep.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
-.\objects\beep.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\beep.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\beep.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 .\objects\beep.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
 .\objects\beep.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h
 .\objects\beep.o: .\my code\Agreement\FreeModbus\modbus\include\mbutils.h
@@ -51,7 +51,7 @@
 .\objects\beep.o: .\my code\ESP8266\esp8266.h
 .\objects\beep.o: .\my code\Usart\usart.h
 .\objects\beep.o: .\my code\system\FreeRTOS-8\include\FreeRTOS.h
-.\objects\beep.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\beep.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\beep.o: .\User\FreeRTOSConfig.h
 .\objects\beep.o: .\my code\system\FreeRTOS-8\include\projdefs.h
 .\objects\beep.o: .\my code\system\FreeRTOS-8\include\portable.h

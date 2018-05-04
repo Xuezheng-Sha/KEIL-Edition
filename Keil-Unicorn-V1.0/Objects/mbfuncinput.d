@@ -1,10 +1,10 @@
 .\objects\mbfuncinput.o: my code\Agreement\FreeModbus\modbus\functions\mbfuncinput.c
-.\objects\mbfuncinput.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\mbfuncinput.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mbfuncinput.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mbfuncinput.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\mbfuncinput.o: .\my code\Agreement\FreeModbus\port\port.h
-.\objects\mbfuncinput.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
-.\objects\mbfuncinput.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\mbfuncinput.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mbfuncinput.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\mbfuncinput.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\mbfuncinput.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\mbfuncinput.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
 .\objects\mbfuncinput.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
 .\objects\mbfuncinput.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h

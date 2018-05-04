@@ -1,8 +1,8 @@
 .\objects\timers.o: my code\system\FreeRTOS-8\timers.c
-.\objects\timers.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\timers.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\timers.o: .\my code\system\FreeRTOS-8\include\FreeRTOS.h
-.\objects\timers.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\timers.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timers.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\timers.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\timers.o: .\User\FreeRTOSConfig.h
 .\objects\timers.o: .\my code\system\FreeRTOS-8\include\projdefs.h
 .\objects\timers.o: .\my code\system\FreeRTOS-8\include\portable.h

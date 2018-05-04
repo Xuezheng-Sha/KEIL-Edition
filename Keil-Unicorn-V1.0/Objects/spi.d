@@ -2,7 +2,7 @@
 .\objects\spi.o: my code\SPI\spi.h
 .\objects\spi.o: .\CMSIS\stm32f10x.h
 .\objects\spi.o: .\CMSIS\core_cm3.h
-.\objects\spi.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\spi.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\spi.o: .\CMSIS\core_cmInstr.h
 .\objects\spi.o: .\CMSIS\core_cmFunc.h
 .\objects\spi.o: .\CMSIS\system_stm32f10x.h

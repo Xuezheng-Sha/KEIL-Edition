@@ -2,7 +2,7 @@
 .\objects\oled.o: .\StdPeriph_Driver\inc\stm32f10x_rcc.h
 .\objects\oled.o: .\CMSIS\stm32f10x.h
 .\objects\oled.o: .\CMSIS\core_cm3.h
-.\objects\oled.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\oled.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\oled.o: .\CMSIS\core_cmInstr.h
 .\objects\oled.o: .\CMSIS\core_cmFunc.h
 .\objects\oled.o: .\CMSIS\system_stm32f10x.h
@@ -20,12 +20,12 @@
 .\objects\oled.o: .\StdPeriph_Driver\inc\stm32f10x_usart.h
 .\objects\oled.o: .\StdPeriph_Driver\inc\misc.h
 .\objects\oled.o: my code\12864\OLED.h
-.\objects\oled.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\oled.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\oled.o: .\my code\delay\delay.h
 .\objects\oled.o: .\User\includes.h
-.\objects\oled.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\oled.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\oled.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\oled.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\oled.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\oled.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\oled.o: .\StdPeriph_Driver\inc\stm32f10x_adc.h
 .\objects\oled.o: .\my code\key\key.h
 .\objects\oled.o: .\my code\delay\delay.h
@@ -36,8 +36,8 @@
 .\objects\oled.o: .\my code\Beep\beep.h
 .\objects\oled.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
 .\objects\oled.o: .\my code\Agreement\FreeModbus\port\port.h
-.\objects\oled.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
-.\objects\oled.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\oled.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\oled.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 .\objects\oled.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
 .\objects\oled.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h
 .\objects\oled.o: .\my code\Agreement\FreeModbus\modbus\include\mbutils.h
@@ -52,7 +52,7 @@
 .\objects\oled.o: .\my code\ESP8266\esp8266.h
 .\objects\oled.o: .\my code\Usart\usart.h
 .\objects\oled.o: .\my code\system\FreeRTOS-8\include\FreeRTOS.h
-.\objects\oled.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\oled.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\oled.o: .\User\FreeRTOSConfig.h
 .\objects\oled.o: .\my code\system\FreeRTOS-8\include\projdefs.h
 .\objects\oled.o: .\my code\system\FreeRTOS-8\include\portable.h

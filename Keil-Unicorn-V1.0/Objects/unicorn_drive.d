@@ -1,13 +1,13 @@
 .\objects\unicorn_drive.o: my code\Unicorn drive\Unicorn_drive.c
 .\objects\unicorn_drive.o: my code\Unicorn drive\Unicorn_drive.h
 .\objects\unicorn_drive.o: .\User\includes.h
-.\objects\unicorn_drive.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\unicorn_drive.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\unicorn_drive.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\unicorn_drive.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\unicorn_drive.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\unicorn_drive.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\unicorn_drive.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\unicorn_drive.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\unicorn_drive.o: .\CMSIS\stm32f10x.h
 .\objects\unicorn_drive.o: .\CMSIS\core_cm3.h
-.\objects\unicorn_drive.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\unicorn_drive.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\unicorn_drive.o: .\CMSIS\core_cmInstr.h
 .\objects\unicorn_drive.o: .\CMSIS\core_cmFunc.h
 .\objects\unicorn_drive.o: .\CMSIS\system_stm32f10x.h
@@ -35,8 +35,8 @@
 .\objects\unicorn_drive.o: .\my code\Beep\beep.h
 .\objects\unicorn_drive.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
 .\objects\unicorn_drive.o: .\my code\Agreement\FreeModbus\port\port.h
-.\objects\unicorn_drive.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
-.\objects\unicorn_drive.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\unicorn_drive.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\unicorn_drive.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 .\objects\unicorn_drive.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
 .\objects\unicorn_drive.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h
 .\objects\unicorn_drive.o: .\my code\Agreement\FreeModbus\modbus\include\mbutils.h
@@ -51,7 +51,7 @@
 .\objects\unicorn_drive.o: .\my code\ESP8266\esp8266.h
 .\objects\unicorn_drive.o: .\my code\Usart\usart.h
 .\objects\unicorn_drive.o: .\my code\system\FreeRTOS-8\include\FreeRTOS.h
-.\objects\unicorn_drive.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\unicorn_drive.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\unicorn_drive.o: .\User\FreeRTOSConfig.h
 .\objects\unicorn_drive.o: .\my code\system\FreeRTOS-8\include\projdefs.h
 .\objects\unicorn_drive.o: .\my code\system\FreeRTOS-8\include\portable.h

@@ -2,7 +2,7 @@
 .\objects\key.o: my code\key\key.h
 .\objects\key.o: .\CMSIS\stm32f10x.h
 .\objects\key.o: .\CMSIS\core_cm3.h
-.\objects\key.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\key.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\key.o: .\CMSIS\core_cmInstr.h
 .\objects\key.o: .\CMSIS\core_cmFunc.h
 .\objects\key.o: .\CMSIS\system_stm32f10x.h
@@ -21,10 +21,10 @@
 .\objects\key.o: .\StdPeriph_Driver\inc\misc.h
 .\objects\key.o: .\my code\delay\delay.h
 .\objects\key.o: .\User\includes.h
-.\objects\key.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\key.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\key.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\key.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\key.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\key.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\key.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\key.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\key.o: .\StdPeriph_Driver\inc\stm32f10x_adc.h
 .\objects\key.o: .\my code\12864\OLED.h
 .\objects\key.o: .\my code\delay\delay.h
@@ -35,8 +35,8 @@
 .\objects\key.o: .\my code\Beep\beep.h
 .\objects\key.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
 .\objects\key.o: .\my code\Agreement\FreeModbus\port\port.h
-.\objects\key.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
-.\objects\key.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\key.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\key.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 .\objects\key.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
 .\objects\key.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h
 .\objects\key.o: .\my code\Agreement\FreeModbus\modbus\include\mbutils.h
@@ -51,7 +51,7 @@
 .\objects\key.o: .\my code\ESP8266\esp8266.h
 .\objects\key.o: .\my code\Usart\usart.h
 .\objects\key.o: .\my code\system\FreeRTOS-8\include\FreeRTOS.h
-.\objects\key.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\key.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\key.o: .\User\FreeRTOSConfig.h
 .\objects\key.o: .\my code\system\FreeRTOS-8\include\projdefs.h
 .\objects\key.o: .\my code\system\FreeRTOS-8\include\portable.h

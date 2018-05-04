@@ -1,7 +1,7 @@
 .\objects\i2c.o: my code\I2C\i2c.c
 .\objects\i2c.o: .\CMSIS\stm32f10x.h
 .\objects\i2c.o: .\CMSIS\core_cm3.h
-.\objects\i2c.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\i2c.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\i2c.o: .\CMSIS\core_cmInstr.h
 .\objects\i2c.o: .\CMSIS\core_cmFunc.h
 .\objects\i2c.o: .\CMSIS\system_stm32f10x.h
@@ -21,10 +21,10 @@
 .\objects\i2c.o: my code\I2C\i2c.h
 .\objects\i2c.o: .\my code\delay\delay.h
 .\objects\i2c.o: .\User\includes.h
-.\objects\i2c.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\i2c.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\i2c.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\i2c.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\i2c.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\i2c.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\i2c.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\i2c.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\i2c.o: .\StdPeriph_Driver\inc\stm32f10x_adc.h
 .\objects\i2c.o: .\my code\12864\OLED.h
 .\objects\i2c.o: .\my code\key\key.h
@@ -36,8 +36,8 @@
 .\objects\i2c.o: .\my code\Beep\beep.h
 .\objects\i2c.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
 .\objects\i2c.o: .\my code\Agreement\FreeModbus\port\port.h
-.\objects\i2c.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
-.\objects\i2c.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\i2c.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\i2c.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 .\objects\i2c.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
 .\objects\i2c.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h
 .\objects\i2c.o: .\my code\Agreement\FreeModbus\modbus\include\mbutils.h
@@ -51,7 +51,7 @@
 .\objects\i2c.o: .\my code\ESP8266\esp8266.h
 .\objects\i2c.o: .\my code\Usart\usart.h
 .\objects\i2c.o: .\my code\system\FreeRTOS-8\include\FreeRTOS.h
-.\objects\i2c.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\i2c.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\i2c.o: .\User\FreeRTOSConfig.h
 .\objects\i2c.o: .\my code\system\FreeRTOS-8\include\projdefs.h
 .\objects\i2c.o: .\my code\system\FreeRTOS-8\include\portable.h

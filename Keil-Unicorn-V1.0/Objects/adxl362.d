@@ -1,7 +1,7 @@
 .\objects\adxl362.o: my code\ADXL362\ADXL362.c
 .\objects\adxl362.o: .\CMSIS\stm32f10x.h
 .\objects\adxl362.o: .\CMSIS\core_cm3.h
-.\objects\adxl362.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\adxl362.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\adxl362.o: .\CMSIS\core_cmInstr.h
 .\objects\adxl362.o: .\CMSIS\core_cmFunc.h
 .\objects\adxl362.o: .\CMSIS\system_stm32f10x.h
@@ -22,10 +22,10 @@
 .\objects\adxl362.o: .\my code\SPI\spi.h
 .\objects\adxl362.o: .\my code\delay\delay.h
 .\objects\adxl362.o: .\User\includes.h
-.\objects\adxl362.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\adxl362.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\adxl362.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\adxl362.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\adxl362.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\adxl362.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\adxl362.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\adxl362.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\adxl362.o: .\StdPeriph_Driver\inc\stm32f10x_adc.h
 .\objects\adxl362.o: .\my code\12864\OLED.h
 .\objects\adxl362.o: .\my code\key\key.h
@@ -35,8 +35,8 @@
 .\objects\adxl362.o: .\my code\Beep\beep.h
 .\objects\adxl362.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
 .\objects\adxl362.o: .\my code\Agreement\FreeModbus\port\port.h
-.\objects\adxl362.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
-.\objects\adxl362.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\adxl362.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\adxl362.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 .\objects\adxl362.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
 .\objects\adxl362.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h
 .\objects\adxl362.o: .\my code\Agreement\FreeModbus\modbus\include\mbutils.h
@@ -51,7 +51,7 @@
 .\objects\adxl362.o: .\my code\ESP8266\esp8266.h
 .\objects\adxl362.o: .\my code\Usart\usart.h
 .\objects\adxl362.o: .\my code\system\FreeRTOS-8\include\FreeRTOS.h
-.\objects\adxl362.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\adxl362.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\adxl362.o: .\User\FreeRTOSConfig.h
 .\objects\adxl362.o: .\my code\system\FreeRTOS-8\include\projdefs.h
 .\objects\adxl362.o: .\my code\system\FreeRTOS-8\include\portable.h

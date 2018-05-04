@@ -1,9 +1,9 @@
 .\objects\queue.o: my code\system\FreeRTOS-8\queue.c
-.\objects\queue.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\queue.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\queue.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\queue.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\queue.o: .\my code\system\FreeRTOS-8\include\FreeRTOS.h
-.\objects\queue.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
-.\objects\queue.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\queue.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\queue.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\queue.o: .\User\FreeRTOSConfig.h
 .\objects\queue.o: .\my code\system\FreeRTOS-8\include\projdefs.h
 .\objects\queue.o: .\my code\system\FreeRTOS-8\include\portable.h

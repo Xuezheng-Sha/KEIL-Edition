@@ -1,7 +1,7 @@
 .\objects\system_stm32f10x.o: CMSIS\system_stm32f10x.c
 .\objects\system_stm32f10x.o: CMSIS\stm32f10x.h
 .\objects\system_stm32f10x.o: CMSIS\core_cm3.h
-.\objects\system_stm32f10x.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\system_stm32f10x.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\system_stm32f10x.o: CMSIS\core_cmInstr.h
 .\objects\system_stm32f10x.o: CMSIS\core_cmFunc.h
 .\objects\system_stm32f10x.o: CMSIS\system_stm32f10x.h

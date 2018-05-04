@@ -1,10 +1,10 @@
 .\objects\mbrtu.o: my code\Agreement\FreeModbus\modbus\rtu\mbrtu.c
-.\objects\mbrtu.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\mbrtu.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mbrtu.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mbrtu.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\mbrtu.o: .\my code\Agreement\FreeModbus\port\port.h
-.\objects\mbrtu.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
-.\objects\mbrtu.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\mbrtu.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mbrtu.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\mbrtu.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\mbrtu.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\mbrtu.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
 .\objects\mbrtu.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
 .\objects\mbrtu.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h

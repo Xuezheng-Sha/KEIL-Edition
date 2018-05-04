@@ -1,8 +1,8 @@
 .\objects\porttimer.o: my code\Agreement\FreeModbus\port\porttimer.c
 .\objects\porttimer.o: my code\Agreement\FreeModbus\port\port.h
-.\objects\porttimer.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
-.\objects\porttimer.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
-.\objects\porttimer.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\porttimer.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\porttimer.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\porttimer.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\porttimer.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
 .\objects\porttimer.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
 .\objects\porttimer.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h

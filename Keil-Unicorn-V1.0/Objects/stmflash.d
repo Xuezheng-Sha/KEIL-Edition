@@ -1,13 +1,13 @@
 .\objects\stmflash.o: my code\STMFLASH\stmflash.c
 .\objects\stmflash.o: my code\STMFLASH\stmflash.h
 .\objects\stmflash.o: .\User\includes.h
-.\objects\stmflash.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\stmflash.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\stmflash.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\stmflash.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\stmflash.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\stmflash.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\stmflash.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\stmflash.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\stmflash.o: .\CMSIS\stm32f10x.h
 .\objects\stmflash.o: .\CMSIS\core_cm3.h
-.\objects\stmflash.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stmflash.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stmflash.o: .\CMSIS\core_cmInstr.h
 .\objects\stmflash.o: .\CMSIS\core_cmFunc.h
 .\objects\stmflash.o: .\CMSIS\system_stm32f10x.h
@@ -35,8 +35,8 @@
 .\objects\stmflash.o: .\my code\Beep\beep.h
 .\objects\stmflash.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
 .\objects\stmflash.o: .\my code\Agreement\FreeModbus\port\port.h
-.\objects\stmflash.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
-.\objects\stmflash.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\stmflash.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\stmflash.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 .\objects\stmflash.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
 .\objects\stmflash.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h
 .\objects\stmflash.o: .\my code\Agreement\FreeModbus\modbus\include\mbutils.h
@@ -51,7 +51,7 @@
 .\objects\stmflash.o: .\my code\ESP8266\esp8266.h
 .\objects\stmflash.o: .\my code\Usart\usart.h
 .\objects\stmflash.o: .\my code\system\FreeRTOS-8\include\FreeRTOS.h
-.\objects\stmflash.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\stmflash.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\stmflash.o: .\User\FreeRTOSConfig.h
 .\objects\stmflash.o: .\my code\system\FreeRTOS-8\include\projdefs.h
 .\objects\stmflash.o: .\my code\system\FreeRTOS-8\include\portable.h

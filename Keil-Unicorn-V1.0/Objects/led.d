@@ -3,7 +3,7 @@
 .\objects\led.o: .\StdPeriph_Driver\inc\stm32f10x_rcc.h
 .\objects\led.o: .\CMSIS\stm32f10x.h
 .\objects\led.o: .\CMSIS\core_cm3.h
-.\objects\led.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\led.o: .\CMSIS\core_cmInstr.h
 .\objects\led.o: .\CMSIS\core_cmFunc.h
 .\objects\led.o: .\CMSIS\system_stm32f10x.h

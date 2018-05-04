@@ -2,7 +2,7 @@
 .\objects\usart.o: my code\Usart\usart.h
 .\objects\usart.o: .\CMSIS\stm32f10x.h
 .\objects\usart.o: .\CMSIS\core_cm3.h
-.\objects\usart.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usart.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\usart.o: .\CMSIS\core_cmInstr.h
 .\objects\usart.o: .\CMSIS\core_cmFunc.h
 .\objects\usart.o: .\CMSIS\system_stm32f10x.h
@@ -21,10 +21,10 @@
 .\objects\usart.o: .\StdPeriph_Driver\inc\misc.h
 .\objects\usart.o: .\my code\delay\delay.h
 .\objects\usart.o: .\User\includes.h
-.\objects\usart.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\objects\usart.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\usart.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\usart.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\usart.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\usart.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\usart.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\usart.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\usart.o: .\StdPeriph_Driver\inc\stm32f10x_adc.h
 .\objects\usart.o: .\my code\12864\OLED.h
 .\objects\usart.o: .\my code\key\key.h
@@ -36,8 +36,8 @@
 .\objects\usart.o: .\my code\Beep\beep.h
 .\objects\usart.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
 .\objects\usart.o: .\my code\Agreement\FreeModbus\port\port.h
-.\objects\usart.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
-.\objects\usart.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\usart.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\usart.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 .\objects\usart.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
 .\objects\usart.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h
 .\objects\usart.o: .\my code\Agreement\FreeModbus\modbus\include\mbutils.h
@@ -51,7 +51,7 @@
 .\objects\usart.o: .\my code\SHT20\sht20.h
 .\objects\usart.o: .\my code\ESP8266\esp8266.h
 .\objects\usart.o: .\my code\system\FreeRTOS-8\include\FreeRTOS.h
-.\objects\usart.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\usart.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\usart.o: .\User\FreeRTOSConfig.h
 .\objects\usart.o: .\my code\system\FreeRTOS-8\include\projdefs.h
 .\objects\usart.o: .\my code\system\FreeRTOS-8\include\portable.h
@@ -63,4 +63,4 @@
 .\objects\usart.o: .\my code\system\FreeRTOS-8\include\queue.h
 .\objects\usart.o: .\my code\system\FreeRTOS-8\include\croutine.h
 .\objects\usart.o: .\my code\system\FreeRTOS-8\include\list.h
-.\objects\usart.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\usart.o: G:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
