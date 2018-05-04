@@ -1,0 +1,1840 @@
+Dependencies for Project 'Unicorn-V1.0', Target 'Test': (DO NOT MODIFY !)
+F (.\CMSIS\core_cm3.c)(0x5AEBF458)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+F (.\CMSIS\system_stm32f10x.c)(0x5AEBF458)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (CMSIS\stm32f10x.h)(0x5AEBF458)
+I (CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\my code\Agreement\FreeModbus\Executable\Executable.C)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\executable.o --omf_browse .\objects\executable.crf --depend .\objects\executable.d)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\my code\Agreement\FreeModbus\modbus\rtu\mbcrc.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\mbcrc.o --omf_browse .\objects\mbcrc.crf --depend .\objects\mbcrc.d)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+F (.\my code\Agreement\FreeModbus\modbus\rtu\mbrtu.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\mbrtu.o --omf_browse .\objects\mbrtu.crf --depend .\objects\mbrtu.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (my code\Agreement\FreeModbus\modbus\rtu\mbrtu.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbframe.h)(0x5AEBF459)
+I (my code\Agreement\FreeModbus\modbus\rtu\mbcrc.h)(0x5AEBF459)
+F (.\my code\Agreement\FreeModbus\modbus\mb.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\mb.o --omf_browse .\objects\mb.crf --depend .\objects\mb.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbconfig.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbframe.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbfunc.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\rtu\mbrtu.h)(0x5AEBF459)
+F (.\my code\Agreement\FreeModbus\modbus\functions\mbfunccoils.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\mbfunccoils.o --omf_browse .\objects\mbfunccoils.crf --depend .\objects\mbfunccoils.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbframe.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbconfig.h)(0x5AEBF459)
+F (.\my code\Agreement\FreeModbus\modbus\functions\mbfuncdiag.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\mbfuncdiag.o --omf_browse .\objects\mbfuncdiag.crf --depend .\objects\mbfuncdiag.d)
+F (.\my code\Agreement\FreeModbus\modbus\functions\mbfuncdisc.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\mbfuncdisc.o --omf_browse .\objects\mbfuncdisc.crf --depend .\objects\mbfuncdisc.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbframe.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbconfig.h)(0x5AEBF459)
+F (.\my code\Agreement\FreeModbus\modbus\functions\mbfuncholding.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\mbfuncholding.o --omf_browse .\objects\mbfuncholding.crf --depend .\objects\mbfuncholding.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbframe.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbconfig.h)(0x5AEBF459)
+F (.\my code\Agreement\FreeModbus\modbus\functions\mbfuncinput.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\mbfuncinput.o --omf_browse .\objects\mbfuncinput.crf --depend .\objects\mbfuncinput.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbframe.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbconfig.h)(0x5AEBF459)
+F (.\my code\Agreement\FreeModbus\modbus\functions\mbfuncother.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\mbfuncother.o --omf_browse .\objects\mbfuncother.crf --depend .\objects\mbfuncother.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbframe.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbconfig.h)(0x5AEBF459)
+F (.\my code\Agreement\FreeModbus\modbus\functions\mbutils.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\mbutils.o --omf_browse .\objects\mbutils.crf --depend .\objects\mbutils.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+F (.\my code\Agreement\FreeModbus\modbus\ascii\mbascii.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\mbascii.o --omf_browse .\objects\mbascii.crf --depend .\objects\mbascii.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbconfig.h)(0x5AEBF459)
+I (my code\Agreement\FreeModbus\modbus\ascii\mbascii.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbframe.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\rtu\mbcrc.h)(0x5AEBF459)
+F (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)()
+F (.\my code\Agreement\FreeModbus\modbus\include\mbconfig.h)(0x5AEBF459)()
+F (.\my code\Agreement\FreeModbus\modbus\include\mbframe.h)(0x5AEBF459)()
+F (.\my code\Agreement\FreeModbus\modbus\include\mbfunc.h)(0x5AEBF459)()
+F (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)()
+F (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)()
+F (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)()
+F (.\my code\Agreement\FreeModbus\modbus\rtu\mbcrc.h)(0x5AEBF459)()
+F (.\my code\Agreement\FreeModbus\modbus\rtu\mbrtu.h)(0x5AEBF459)()
+F (.\my code\Agreement\FreeModbus\modbus\tcp\mbtcp.h)(0x5AEBF459)()
+F (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)()
+F (.\my code\Agreement\FreeModbus\port\portevent.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\portevent.o --omf_browse .\objects\portevent.crf --depend .\objects\portevent.d)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+F (.\my code\Agreement\FreeModbus\port\portserial.c)(0x5AEC6C63)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\portserial.o --omf_browse .\objects\portserial.crf --depend .\objects\portserial.d)
+I (my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (.\User\stm32f10x_it.h)(0x5AEBF459)
+F (.\my code\Agreement\FreeModbus\port\porttimer.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\porttimer.o --omf_browse .\objects\porttimer.crf --depend .\objects\porttimer.d)
+I (my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (.\User\stm32f10x_it.h)(0x5AEBF459)
+F (.\my code\system\System task\Systemtask.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\systemtask.o --omf_browse .\objects\systemtask.crf --depend .\objects\systemtask.d)
+I (my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\my code\system\FreeRTOS-8\portable\MemMang\heap_4.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+F (.\my code\system\FreeRTOS-8\portable\RVDS\ARM_CM3\port.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+F (.\my code\system\FreeRTOS-8\portable\RVDS\ARM_CM3\portmacro.h)(0x5AEBF459)()
+F (.\my code\system\FreeRTOS-8\croutine.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\my code\system\FreeRTOS-8\event_groups.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\timers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\event_groups.h)(0x5AEBF459)
+F (.\my code\system\FreeRTOS-8\list.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+F (.\my code\system\FreeRTOS-8\queue.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+F (.\my code\system\FreeRTOS-8\tasks.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\string.h)(0x57F606B8)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\timers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\StackMacros.h)(0x5AEBF459)
+F (.\my code\system\FreeRTOS-8\timers.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\timers.h)(0x5AEBF459)
+F (.\my code\12864\OLED.C)(0x5AEC759A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (my code\12864\OLED.h)(0x5AEC6CC2)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\my code\ADC\ADC.C)(0x5AEC6B1F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+I (my code\ADC\adc.h)(0x5AEC697A)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\my code\ADXL362\ADXL362.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\adxl362.o --omf_browse .\objects\adxl362.crf --depend .\objects\adxl362.d)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\my code\AT24C02\at24c02.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\at24c02.o --omf_browse .\objects\at24c02.crf --depend .\objects\at24c02.d)
+I (my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\my code\Beep\Beep.C)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\beep.o --omf_browse .\objects\beep.crf --depend .\objects\beep.d)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (my code\Beep\Beep.h)(0x5AEC51E3)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\my code\ESP8266\esp8266.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\esp8266.o --omf_browse .\objects\esp8266.crf --depend .\objects\esp8266.d)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\string.h)(0x57F606B8)
+F (.\my code\I2C\i2c.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\my code\key\key.c)(0x5AEC6B1F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (my code\key\key.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\my code\LED\led.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (my code\LED\led.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\my code\SHT20\sht20.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\sht20.o --omf_browse .\objects\sht20.crf --depend .\objects\sht20.d)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\my code\SPI\spi.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (my code\SPI\spi.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\my code\STMFLASH\stmflash.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stmflash.o --omf_browse .\objects\stmflash.crf --depend .\objects\stmflash.d)
+I (my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\my code\Unicorn drive\Unicorn_drive.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\unicorn_drive.o --omf_browse .\objects\unicorn_drive.crf --depend .\objects\unicorn_drive.d)
+I (my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\my code\Usart\usart.c)(0x5AEC6B1F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (my code\Usart\usart.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\string.h)(0x57F606B8)
+F (.\my code\delay\delay.c)(0x5AEC7519)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (my code\delay\delay.h)(0x5AEBF459)
+I (.\User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\misc.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_adc.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_bkp.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_bkp.o --omf_browse .\objects\stm32f10x_bkp.crf --depend .\objects\stm32f10x_bkp.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_can.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_can.o --omf_browse .\objects\stm32f10x_can.crf --depend .\objects\stm32f10x_can.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_cec.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_cec.o --omf_browse .\objects\stm32f10x_cec.crf --depend .\objects\stm32f10x_cec.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_cec.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_crc.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_crc.o --omf_browse .\objects\stm32f10x_crc.crf --depend .\objects\stm32f10x_crc.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_dac.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_dac.o --omf_browse .\objects\stm32f10x_dac.crf --depend .\objects\stm32f10x_dac.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_dac.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_dbgmcu.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_dbgmcu.o --omf_browse .\objects\stm32f10x_dbgmcu.crf --depend .\objects\stm32f10x_dbgmcu.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_dma.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_exti.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_flash.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_fsmc.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_fsmc.o --omf_browse .\objects\stm32f10x_fsmc.crf --depend .\objects\stm32f10x_fsmc.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_i2c.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_i2c.o --omf_browse .\objects\stm32f10x_i2c.crf --depend .\objects\stm32f10x_i2c.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_iwdg.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_iwdg.o --omf_browse .\objects\stm32f10x_iwdg.crf --depend .\objects\stm32f10x_iwdg.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_pwr.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_pwr.o --omf_browse .\objects\stm32f10x_pwr.crf --depend .\objects\stm32f10x_pwr.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_rtc.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_rtc.o --omf_browse .\objects\stm32f10x_rtc.crf --depend .\objects\stm32f10x_rtc.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_sdio.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_spi.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_tim.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_usart.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StdPeriph_Driver\src\stm32f10x_wwdg.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_wwdg.o --omf_browse .\objects\stm32f10x_wwdg.crf --depend .\objects\stm32f10x_wwdg.d)
+I (.\StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\StartUp\startup_stm32f10x_hd.s)(0x5AEC723D)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 523" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (.\User\FreeRTOSConfig.h)(0x5AEBF459)()
+F (.\User\includes.h)(0x5AEBF459)()
+F (.\User\main.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (User\includes.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdarg.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdio.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdlib.h)(0x57F606B8)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\math.h)(0x57F606B6)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_adc.h)(0x5AEBF459)
+I (.\my code\12864\OLED.h)(0x5AEC6CC2)
+I (.\my code\key\key.h)(0x5AEBF459)
+I (.\my code\delay\delay.h)(0x5AEBF459)
+I (.\User\includes.h)(0x5AEBF459)
+I (.\my code\SPI\spi.h)(0x5AEBF459)
+I (.\my code\ADXL362\ADXL362.h)(0x5AEBF459)
+I (.\my code\STMFLASH\stmflash.h)(0x5AEBF459)
+I (.\my code\Beep\beep.h)(0x5AEC51E3)
+I (.\my code\Agreement\FreeModbus\modbus\include\mb.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\port\port.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\assert.h)(0x57F606B6)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\inttypes.h)(0x57F606B6)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbport.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbproto.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\modbus\include\mbutils.h)(0x5AEBF459)
+I (.\my code\LED\led.h)(0x5AEBF459)
+I (.\my code\Agreement\FreeModbus\Executable\Executable.h)(0x5AEC5458)
+I (.\my code\system\System task\Systemtask.h)(0x5AEC6932)
+I (.\my code\ADC\adc.h)(0x5AEC697A)
+I (.\my code\Unicorn drive\Unicorn_drive.h)(0x5AEBF459)
+I (.\my code\AT24C02\at24c02.h)(0x5AEBF459)
+I (.\my code\I2C\i2c.h)(0x5AEBF459)
+I (.\my code\SHT20\sht20.h)(0x5AEBF459)
+I (.\my code\ESP8266\esp8266.h)(0x5AEBF459)
+I (.\my code\Usart\usart.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\FreeRTOS.h)(0x5AEBF459)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stddef.h)(0x57F606B8)
+I (.\User\FreeRTOSConfig.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\projdefs.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\portable.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\deprecated_definitions.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3\portmacro.h)(0x5837E124)
+I (.\my code\system\FreeRTOS-8\include\mpu_wrappers.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\task.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\list.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\queue.h)(0x5AEBF459)
+I (.\my code\system\FreeRTOS-8\include\croutine.h)(0x5AEBF459)
+F (.\User\stm32f10x_conf.h)(0x5AEBF459)()
+F (.\User\stm32f10x_it.c)(0x5AEBF459)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I ".\my code" -I ".\my image" -I .\Objects -I .\StdPeriph_Driver -I .\User -I .\说明 -I .\StdPeriph_Driver\src -I .\StdPeriph_Driver\inc -I ".\my code\12864" -I ".\my code\ADC" -I ".\my code\ADXL362" -I ".\my code\Agreement\FreeModbus\Executable" -I ".\my code\AT24C02" -I ".\my code\Beep" -I ".\my code\delay" -I ".\my code\Usart" -I ".\my code\Unicorn drive" -I ".\my code\ESP8266" -I ".\my code\I2C" -I ".\my code\key" -I ".\my code\LED" -I ".\my code\SHT20" -I ".\my code\SPI" -I ".\my code\STMFLASH" -I ".\my code\TIMER" -I ".\my code\Agreement\FreeModbus\port" -I ".\my code\Agreement\FreeModbus\modbus" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\system\System task" -I ".\my code\system\FreeRTOS-8\include" -I ".\my code\system\FreeRTOS-8\portable\Keil\ARM_CM3" -I ".\my code\Agreement\FreeModbus\modbus\include" -I ".\my code\Agreement\FreeModbus\modbus\functions" -I ".\my code\Agreement\FreeModbus\modbus\ascii" -I ".\my code\Agreement\FreeModbus\modbus\rtu" -I ".\my code\Agreement\FreeModbus\modbus\tcp"-I.\RTE\_Test-I"D:\Program Files\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include"-I"D:\Program Files\MDK5\ARM\CMSIS\Include"-D__UVISION_VERSION="523" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F103xx-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (User\stm32f10x_it.h)(0x5AEBF459)
+I (.\CMSIS\stm32f10x.h)(0x5AEBF458)
+I (.\CMSIS\core_cm3.h)(0x5AEBF458)
+I (D:\Program Files\MDK5\ARM\ARMCC\include\stdint.h)(0x57F606B8)
+I (.\CMSIS\core_cmInstr.h)(0x5AEBF458)
+I (.\CMSIS\core_cmFunc.h)(0x5AEBF458)
+I (.\CMSIS\system_stm32f10x.h)(0x5AEBF458)
+I (.\User\stm32f10x_conf.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_can.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_dma.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x5AEBF459)
+I (.\StdPeriph_Driver\inc\misc.h)(0x5AEBF459)
+F (.\User\stm32f10x_it.h)(0x5AEBF459)()
+F (.\说明\说明.txt)(0x5AEBF7B2)()

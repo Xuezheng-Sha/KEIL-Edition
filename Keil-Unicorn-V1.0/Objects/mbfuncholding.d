@@ -1,0 +1,12 @@
+.\objects\mbfuncholding.o: my code\Agreement\FreeModbus\modbus\functions\mbfuncholding.c
+.\objects\mbfuncholding.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mbfuncholding.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mbfuncholding.o: .\my code\Agreement\FreeModbus\port\port.h
+.\objects\mbfuncholding.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\mbfuncholding.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\mbfuncholding.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mbfuncholding.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
+.\objects\mbfuncholding.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
+.\objects\mbfuncholding.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h
+.\objects\mbfuncholding.o: .\my code\Agreement\FreeModbus\modbus\include\mbframe.h
+.\objects\mbfuncholding.o: .\my code\Agreement\FreeModbus\modbus\include\mbconfig.h

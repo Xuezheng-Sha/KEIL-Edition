@@ -1,0 +1,10 @@
+.\objects\mbutils.o: my code\Agreement\FreeModbus\modbus\functions\mbutils.c
+.\objects\mbutils.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\mbutils.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\mbutils.o: .\my code\Agreement\FreeModbus\port\port.h
+.\objects\mbutils.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\assert.h
+.\objects\mbutils.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\objects\mbutils.o: D:\Program Files\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mbutils.o: .\my code\Agreement\FreeModbus\modbus\include\mb.h
+.\objects\mbutils.o: .\my code\Agreement\FreeModbus\modbus\include\mbport.h
+.\objects\mbutils.o: .\my code\Agreement\FreeModbus\modbus\include\mbproto.h
